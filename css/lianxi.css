@@ -1,0 +1,174 @@
+@import url('base.css');
+/* 导航开始 */
+section:first-of-type{
+	width:1349px;
+	height: auto;
+	margin: 0 auto;
+    padding:40px 0;
+}
+.nav{
+	width:1200px;
+	margin: 0 auto;	
+	padding-left: 542px;
+	padding-bottom:40px;
+    position: relative;
+}
+.box{
+	width: 200px;
+	height:60px;
+	background: pink;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.nav li{
+	float:left;
+	padding: 0 10px;	
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 45px;
+	margin: 0 30px;
+	border-bottom: 0;
+}
+.nav li:last-child{
+	margin-right: 0;
+}
+.nav li a{
+	color: #000;
+	
+}
+.nav li.active{
+	border-bottom: 2px solid #070606;
+}
+.nav li:hover{
+	border-bottom: 2px solid #070606;
+}
+/* 导航结束 */
+/* banner开始 */
+.ban-box{
+   width: 100%;
+   height: auto;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+   z-index: 33;
+}
+.ban-box img{
+	width: 100%;
+	height: 100%;
+}
+/* banner结束 */
+/* 内容开始 */
+.lian-box{
+   width: 100%;
+   height: auto;
+   margin: 0 auto;
+   overflow: hidden;
+   padding: 20px 0;
+}
+.lian-box>img{
+	width: 1200px;
+	height:586px;
+    display: block;
+	margin: 0 auto;
+	border: 4px solid #746767;
+}
+.lian{
+   width:1200px;
+   height: 120px;
+   margin: 0 auto;
+   position: relative;
+ 
+}
+.lian img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -225px;
+}
+.lian h2{
+	font-size: 38px;
+	color: #ef33a9;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left:-76px ;
+}
+.lian P{
+	font-size: 18px;
+	line-height: 32px;
+	position: absolute;
+	left: 50%;
+	top: 62px;
+	margin-left: -58px;
+}
+.lianxi{
+	width: 1192px;
+	height: auto;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0;
+}
+.lianxi li{
+	width:100px;
+	height: 180px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content:space-between;
+	font-size: 18px;
+	font-weight: 600;
+	padding: 50px 10px;
+}
+/* 内容结束 */
+/* 最后开始 */
+.zui-box{
+	width: 100%;
+	height: auto;
+	background: #000;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+.zui{
+	width: 1200px;
+	height:160px;
+	margin: 0 auto;
+}
+.zui-zi{
+	width: 600px;
+	height:32px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.zui-zi li{
+	width:100px;
+	text-align: center;
+	margin-right: 20px;
+	float: left;
+	font-size: 18px;
+	line-height: 30px;
+}
+.zui-zi li a{
+	color: #fff;
+}
+.zuixian{
+
+	width: 1200px;
+	margin: 0 auto;	
+	float: left;
+	border: 1px dashed #999;
+}
+.zui-bottom{
+	width: 600px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+.zui-bottom p{
+	font-size: 16px;
+	color: #fff;
+	line-height: 50px;
+}
+/* 最后结束 */

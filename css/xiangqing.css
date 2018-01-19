@@ -1,0 +1,148 @@
+@import url('base.css');
+/* 导航开始 */
+section:first-of-type{
+	width:1349px;
+	height: auto;
+	margin: 0 auto;
+    padding:40px 0;
+}
+.nav{
+	width:1200px;
+	margin: 0 auto;	
+	padding-left: 542px;
+	padding-bottom:40px;
+    position: relative;
+}
+.box{
+	width: 200px;
+	height:60px;
+	background: pink;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.nav li{
+	float:left;
+	padding: 0 10px;	
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 45px;
+	margin: 0 30px;
+	border-bottom: 0;
+}
+.nav li:last-child{
+	margin-right: 0;
+}
+.nav li a{
+	color: #000;
+	
+}
+.nav li.active{
+	border-bottom: 2px solid #070606;
+}
+.nav li:hover{
+	border-bottom: 2px solid #070606;
+}
+/* 导航结束 */
+/* banner开始 */
+.ban-box{
+   width: 100%;
+   height: auto;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+   z-index: 33;
+}
+/* banner结束 */
+/* 内容开始 */
+.nei-box{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+h4{
+	font-size: 20px;
+	line-height: 60px;
+	padding-bottom: 40px;
+}
+.nei-xian{
+	width: 1200px;
+	height: 2px;
+	margin: 0 auto;
+	background: pink;
+}
+h5{
+	font-size: 18px;
+	font-weight: 300;
+}
+.nei-box p:first-of-type{
+	padding: 30px 0;
+}
+p{
+	padding-bottom: 30px;
+	font-size: 15px;
+	line-height: 24px;
+}
+.nei-bm{
+	padding-bottom:50px;
+	padding-top: 20px;
+}
+span{
+	font-size: 15px;
+	line-height: 24px;
+}
+.row{
+	font-size: 16px;
+	line-height: 24px;
+}
+/* 内容结束 */
+/* 最后开始 */
+.zui-box{
+	width: 100%;
+	height: auto;
+	background: #000;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+.zui{
+	width: 1200px;
+	height:160px;
+	margin: 0 auto;
+}
+.zui-zi{
+	width: 600px;
+	height:32px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.zui-zi li{
+	width:100px;
+	text-align: center;
+	margin-right: 20px;
+	float: left;
+	font-size: 18px;
+	line-height: 30px;
+}
+.zui-zi li a{
+	color: #fff;
+}
+.zuixian{
+
+	width: 1200px;
+	margin: 0 auto;	
+	float: left;
+	border: 1px dashed #999;
+}
+.zui-bottom{
+	width: 600px;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: center;
+}
+.zui-bottom p{
+	font-size: 16px;
+	color: #fff;
+	line-height: 50px;
+}
+/* 最后结束 */

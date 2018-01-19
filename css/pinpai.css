@@ -1,0 +1,202 @@
+@import url('base.css');
+/* 导航开始 */
+section:first-of-type{
+	width:1349px;
+	height: auto;
+	margin: 0 auto;
+    padding:40px 0;
+}
+.nav{
+	width:1200px;
+	margin: 0 auto;	
+	padding-left: 542px;
+	padding-bottom:40px;
+    position: relative;
+}
+.box{
+	width: 200px;
+	height:60px;
+	background: pink;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.nav li{
+	float:left;
+	padding: 0 10px;	
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 45px;
+	margin: 0 30px;
+	border-bottom: 0;
+}
+.nav li:last-child{
+	margin-right: 0;
+}
+.nav li a{
+	color: #000;
+	
+}
+.nav li.active{
+	border-bottom: 2px solid #070606;
+}
+.nav li:hover{
+	border-bottom: 2px solid #070606;
+}
+/* 导航结束 */
+/* banner开始 */
+.ban-box{
+   width: 100%;
+   height: auto;
+   margin: 0 auto;
+   overflow: hidden;
+   position: relative;
+   z-index: 33;
+}
+/* banner结束 */
+/* 内容开始 */
+
+.li-box{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.lizi{
+	width:1200px;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+}
+.lizi h4{
+	padding-top: 40px;
+	padding-bottom: 10px;
+	font-size: 32px;
+	line-height: 40px;
+	position: absolute;
+	top: -17px;
+	left:45px;
+	color: #f31fd6;
+}
+.lizi h5{
+    font-size: 16px;
+    line-height: 40px;
+    margin-left: 45px;
+    color:#424242;
+}
+.lixian{
+	width:70px;
+	height:4px;
+	background: #ff0036;
+	margin: 20px 45px;
+}
+.li-box p{
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing:1px;
+	padding-left: 45px;
+}
+.litu{
+	width: 1200px;
+	height:auto;
+	margin: 0 auto;
+	padding: 50px 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.litu li img{
+	transition: .5s;
+	box-shadow:0 0 10px 10px rgba(0,0,0, 0.0)
+}
+.litu li:hover img{
+    border-radius:20%;
+    box-shadow:0 0 3px 3px rgba(200, 134, 219, 0.6); 
+}
+/* 内容结束 */
+/* 时尚开始 */
+.shi-box{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px  20px;
+}
+.shi-left{
+	margin-right:110px;
+}
+.pinzi{
+	width: 700px;
+	height: auto;
+	padding: 18px  20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.pinzi img{
+	margin-right: 60px;
+}
+.pinzi h6{
+	font-size:20px;
+	line-height:20px;
+	display:inline-block; 
+	margin-bottom: 30px;
+	color: #616060;
+}
+.pinzi p{
+	font-size:16px;
+	line-height: 30px;
+	display:inline-block;
+	color: #333; 
+}
+/* 时尚结束 */
+/* 最后开始 */
+.zui-box{
+	width: 100%;
+	height: auto;
+	background: #000;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+.zui{
+	width: 1200px;
+	height:160px;
+	margin: 0 auto;
+}
+.zui-zi{
+	width: 600px;
+	height:32px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.zui-zi li{
+	width:100px;
+	text-align: center;
+	margin-right: 20px;
+	float: left;
+	font-size: 18px;
+	line-height: 30px;
+}
+.zui-zi li a{
+	color: #fff;
+}
+.zuixian{
+
+	width: 1200px;
+	margin: 0 auto;	
+	float: left;
+	border: 1px dashed #999;
+}
+.zui-bottom{
+	width: 600px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+.zui-bottom p{
+	font-size: 16px;
+	color: #fff;
+	line-height: 50px;
+}
+/* 最后结束 */

@@ -1,0 +1,420 @@
+@import url('base.css');
+body,html{
+	width: 100%;
+	height: 100%;
+}
+/* 导航开始 */
+section:first-of-type{
+	width:1349px;
+	height: auto;
+	margin: 0 auto;
+    padding:40px 0;
+}
+.nav{
+	width:1200px;
+	margin: 0 auto;	
+	padding-left: 542px;
+	padding-bottom:40px;
+    position: relative;
+}
+.box{
+	width: 200px;
+	height:60px;
+	background: pink;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.nav li{
+	float:left;
+	padding: 0 10px;	
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 45px;
+	margin: 0 30px;
+	border-bottom: 0;
+}
+.nav li:last-child{
+	margin-right: 0;
+}
+.nav li a{
+	color: #000;
+	
+}
+.nav li.active{
+	border-bottom: 2px solid #070606;
+}
+.nav li:hover{
+	border-bottom: 2px solid #070606;
+}
+/* 导航结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height:668px;
+    overflow: hidden;
+    margin: 0 auto ;
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.banner-tu{
+	width:1680px;
+	height:668px;
+    position: relative;
+	overflow: hidden;
+	left: 50%;
+	margin-left: -840px;
+}
+.banner-tu li{
+	width:1680px;
+	height:668px;
+    position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+}
+.banner .banner-tu li.active{
+	opacity: 1;
+}
+
+.banner-tu li.pcl{
+	width:1680px;
+	height:668px;
+	overflow: hidden; 
+	background: url("../img/banner1.jpg") 0px 0px no-repeat;
+}
+.banner-tu img{
+	width: 100%;
+    height: 100%;
+    display: block;
+}
+.lunbo{
+	width: 956px;
+	height: 100px;
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	margin-left: -473px;
+}
+.lunbo li{
+	float: left;
+	width: 228px;
+	height: 100px;
+	margin-right: 11px;
+	box-sizing: border-box;
+	z-index: 33;
+}
+.lunbo li.active{
+	border: 4px solid #fff;
+}
+.lunbo li:hover{
+	border: 4px solid #fff;
+}
+.lunbo li img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* banner结束 */
+/* 品牌开始 */
+.pinbox{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.pintu{
+	width: 1200px;
+	height: auto;
+	margin:0px auto;
+	margin-bottom: 50px;
+	position: relative;
+	text-align: center;
+}
+.pintu>img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.pintu>h3{
+	width:200px;
+	font-size: 24px;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	color:#ef33a9;
+	position: absolute;
+	top:60px;
+	left: 50%;
+	margin-left: -100px;
+	
+}
+.pinlei{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.pinlei li{
+   width: 260px;
+   height: 360px;
+   /* background: yellow; */
+   padding: 20px 15px;
+   text-align: center;
+}
+.pinlei li a{
+	font-size:18px;
+	font-weight: 600;
+	color: #000;
+	line-height:80px;
+
+}
+/* 品牌结束 */
+
+/* 展示开始 */
+.chan-box{
+	width: 100%;
+	height:970px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.chan-tu{
+	width: 1200px;
+	height: 820px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	padding: 10px 0;
+	margin-bottom: 50px;
+}
+.chan-tu li{
+	width: 398px;
+	height: 400px;
+	position: relative;
+}
+.chan-tu li .zhe{
+	width: 100%;
+	height: 398px;
+	background: rgba(0, 0, 0, 0.6);
+	position: absolute;
+	top: -100%;
+	left:398px;
+	display: none;
+	cursor: pointer;
+	transition:all 2s;
+}
+.chan-tu li .zhe p{
+	width: 350px;
+	height: 350px;
+	display: block;
+	margin: 24px auto;
+	border: 1px solid #fff;
+	font-size: 24px;
+	text-align: center;
+	line-height: 350px;
+	color: #fff;
+	font-weight: 500;
+}
+.chan-tu li:hover .zhe{
+	display: block;
+	transform: translate( -400px,398px);
+
+}
+.mask{
+	width:100%;
+	height:100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	background:rgba(0, 0, 0, 0.8);
+	transform: scale(1, 0);
+	transition: 0.5s;
+	z-index: 6666666;
+}
+.mask img{
+	width:500px;
+	height: 500px;
+	display: block;
+	margin:100px auto;
+
+}
+
+.mask.active{
+	transform: scale(1, 1)
+}
+.btnL,.btnR{
+		width: 50px;
+		height: 50px;
+		background:#fff;
+		border-radius: 50%;
+		position: absolute;
+		top: 50%;
+		text-align: center;
+		
+	}
+.btnL i,.btnR i{
+		font-size: 30px;
+		
+		line-height: 50px;
+		color: #333;
+}
+.btnL{
+		left: 180px;
+}
+.btnR{
+		right: 180px;
+}
+
+.mask .close{
+		width: 50px;
+		height: 50px;
+		background:#fff;
+		border-radius: 50%;
+		position: absolute;
+		top:10px;
+		right:20px;
+		text-align: center;
+	}
+.mask .close i{
+		font-size: 30px;
+		
+		line-height: 50px;
+		color: #333;
+	}
+/* 展示结束 */
+/* 咨询开始 */
+.zi-box{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.zixun{
+	width: 1200px;
+	height:702px;
+	margin: 0 auto;
+
+}
+.zi-left{
+	width: 390px;
+	height: auto;
+	margin-right: 10px;
+	float: left;
+    
+}
+.zi-right{
+	float: left;
+    width: 800px;
+    height:auto;
+    padding:0 50px;
+}
+.zi-right li{
+  padding:18px 0;
+}
+.zi-right h5 a{
+	font-size: 18px;
+	line-height: 36px;
+	color: #333;
+}
+.zi-right h5:hover a{
+	color: #ff0036;
+}
+.zi-right p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #333;
+}
+/* 咨询结束 */
+/* 服务开始 */
+ .service{
+ 	width: 100%;
+	height: auto;
+	margin: 0 auto;
+ }
+ .sv-box{
+ 	width: 1200px;
+ 	height: auto;
+ 	margin: 0 auto;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	text-align: center;
+ 	margin-bottom: 50px;
+ }
+.sv-box li{
+   padding: 20px 15px;
+   
+}
+.sv-box li img{
+	transition: 1s;
+}
+.sv-box li:hover img{
+	transform: translateY(-30px);
+}
+.sv-box h4{
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 60px;
+}
+.sv-box h5{
+   font-size: 16px;
+   font-weight:500;
+   line-height: 20px;
+   text-transform: uppercase;
+}
+/* 服务结束 */
+/* 最后开始 */
+.zui-box{
+	width: 100%;
+	height: auto;
+	background: #000;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+.zui{
+	width: 1200px;
+	height:160px;
+	margin: 0 auto;
+}
+.zui-zi{
+	width: 600px;
+	height:32px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.zui-zi li{
+	width:100px;
+	text-align: center;
+	margin-right: 20px;
+	float: left;
+	font-size: 18px;
+	line-height: 30px;
+}
+.zui-zi li a{
+	color: #fff;
+}
+.zuixian{
+
+	width: 1200px;
+	margin: 0 auto;	
+	float: left;
+	border: 1px dashed #999;
+}
+.zui-bottom{
+	width: 600px;
+	height: auto;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+.zui-bottom p{
+	font-size: 16px;
+	color: #fff;
+	line-height: 50px;
+}
+/* 最后结束 */
